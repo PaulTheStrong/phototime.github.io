@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'GothamRoundedBold';
+    font-weight: 0;
+    src: url("fonts/GothamRounded-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'GothamRoundedBook';
+    font-weight: 0;
+    src: url("fonts/GothamRounded-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'GothamRoundedLight';
+    font-weight: 0;
+    src: url("fonts/GothamRounded-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'GothamRoundedMedium';
+    font-weight: 0;
+    src: url("fonts/GothamRounded-Medium.otf") format("opentype");
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.your-life {
+    width: 1280px;
+    height: 745px;
+    margin: 0 auto;
+    padding: 0;
+    /*background-color: red;*/
+    background-image: url(resources/Livello\ 1.png);
+}
+
+#header {
+    padding: 70px 0;
+    margin: 0 271.1px;
+}
+
+#header ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#header ul li {
+    display: inline-block;
+    font-family: 'GothamRoundedBold', sans-serif;
+    font-size: 15.5px;
+    font-weight: 1;
+    letter-spacing: 2.9px;
+    color: white;
+}
+
+#header ul li a {
+    text-decoration: none;
+}
+
+.your-life h1 {
+    font-family: 'GothamRoundedBold', sans-serif;
+    letter-spacing: 5.3px;
+    font-size: 27pt;
+    color: white;
+    margin-left: 391px;
+    margin-top: 165px;
+    margin-bottom: 0px;
+}
+
+.your-life h4 {
+    color: white;
+    margin-left: 475px;
+    font-family: 'GothamRoundedLight', sans-serif;
+    margin-top: 7.4px;
+    letter-spacing: 2.6px;
+    padding-bottom: 4px;
+}
+
+#get-started-btn {
+    width: 166px;
+    height: 49px;
+    font-family: 'GothamRoundedBold', sans-serif;
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    background-color: #16a085;
+    border: none;
+    letter-spacing: 1.8px;
+    font-size: 12px;
+}
+
+#get-started-btn:hover {
+    cursor: pointer;
+}
+
+
+#social-media {
+    margin: 220px auto 0px;
+    width: 98px;
+}
+
+.rappresent {
+    width: 1280px;
+    height: 492px;
+    margin: 0 auto;
+    background-image: url('resources/rappresent/iPhone.png');
+    background-position-x: 510px;
+    background-position-y: 90px;
+    background-repeat: no-repeat;
+    background-color: #f5f6f7;
+}
+
+#rappresent-text {
+    padding-left: 128px;
+    padding-top: 109px;
+    width: 400px;
+}
+
+#rappresent-text h2{
+    margin-top: 0;
+    font-family: 'GothamRoundedBold', sans-serif;
+    color: #16a085;
+    font-size: 17px;
+    letter-spacing: 3.34px;
+}
+
+#rappresent-text p {
+    padding-top: 26px;
+    font-family: 'GothamRoundedBook', sans-serif;
+    line-height: 24px;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    width: 450px;
+    color: #373737;
+}
+
+#rappresent-text p b {
+    font-family: 'GothamRoundedBold', sans-serif;
+}
+
+#rappresent-get-started-btn {
+    width: 192px;
+    height: 51px;
+    background-color: #16a085;
+    color: white;
+    font-family: 'GothamRoundedBold', sans-serif;
+    display: block;
+    margin-left: 0px;
+    margin-top: 41px;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-left: 9px;
+    margin-left: 1px;
+    letter-spacing: 1.8px;
+    font-size: 12px;
+    border: none;
+}
+
+#rappresent-get-started-btn:hover {
+    cursor: pointer;
+}
+
+.design {
+    width: 1280px;
+    height: 558px;
+    margin: 0 auto;
+    background-image: url('resources/design/iphone.png');
+    background-repeat: no-repeat;
+    background-position-x: 32px;
+    background-position-y: 146px;
+}
+
+.design h2{
+    margin-top: 0;
+    font-family: 'GothamRoundedBold', sans-serif;
+    color: #16a085;
+    font-size: 17px;
+    letter-spacing: 3.34px;
+    padding-top: 143px;
+    padding-left: 766px;
+    margin-bottom: 0px;
+}
+
+.design > p {
+    font-family: 'GothamRoundedBook', sans-serif;
+    line-height: 22.1px;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    width: 450px;
+    color: #373737;
+    padding-left: 767.25px;
+    padding-top: 34px;
+    margin: 0px;
+}
+
+.design p b {
+    font-family: 'GothamRoundedBold', sans-serif;
+}
+
+.design button {
+    width: 192px;
+    height: 51px;
+    background-color: #16a085;
+    color: white;
+    font-family: 'GothamRoundedBold', sans-serif;
+    display: block;
+    margin-left: 767.25px;
+    margin-top: 37px;
+    padding-left: 3px;
+    border-radius: 3px;
+    letter-spacing: 1.8px;
+    font-size: 12px;
+    border: none;
+}
+
+.design button:hover {
+    cursor: pointer;
+}
+
+#date {
+    padding-left: 767px;
+    padding-top: 44px;
+    font-family: 'GothamRoundedBold', sans-serif;
+    color: #373737;
+    letter-spacing: 1.8px;
+    font-size: 12px;
+}
+
+.date-text {
+    display: inline;
+}
+
+#design-arrows {
+    padding-left: 767px;
+    padding-top: 5px;
+}
+
+#design-arrows > img {
+    margin-right: 17px;
+}
+
+#design-arrows > img:hover {
+    cursor: pointer;
+}
+
+
+.community {
+    width: 1280px;
+    height: 484px;
+    margin: 0 auto;
+    background-color: #f5f6f7;
+}
+
+#community-arrows {
+    padding-left: 1113px;
+    padding-top: 95px;
+}
+
+#community-arrows > img {
+    margin-right: 13px;
+}
+
+#community-arrows > img:hover {
+    cursor: pointer;
+}
+
+#community-content {
+    display: flex;
+    margin-top: 5px;
+    margin-left:100px;
+}
+
+#community-header {
+    width: 234px;
+    margin-right: 52px;
+}
+
+#community-header h2 {
+    font-family: 'GothamRoundedBold', sans-serif;
+    color: #373737;
+    letter-spacing: 2.4px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+#community-header p {
+    font-family: 'GothamRoundedMedium', sans-serif;
+    color: #373737;
+    font-size: 10.8px;
+    text-align: center;
+    padding-top: 6px;
+    letter-spacing: 1.05px;
+    line-height: 12px;
+    padding-left: 2px;
+}
+
+#community-header img {
+    padding-top: 44px;
+    padding-left: 87px;
+}
+
+.community-image {
+    margin-right: 24px;
+}
+
+.subscribe {
+    width: 1280px;
+    height: 790px;
+    margin: 0 auto;
+    background-image: url('resources/subscribe/Livello\ 3.png');
+}
+
+.subscribe h1 {
+    font-family: 'GothamRoundedBold', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 347px;
+    letter-spacing: 3.6px;
+    padding-left: 4px;
+}
+
+.download {
+    width: 1280px;
+    height: 396px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+.footer {
+    width: 1280px;
+    height: 131px;
+    margin: 0 auto;
+    background-color: red;
+}
