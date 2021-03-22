@@ -439,6 +439,7 @@ body {
 
 .download button:hover {
     cursor: pointer;
+    background-color: #00614e;
 }
 
 .footer {
